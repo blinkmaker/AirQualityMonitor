@@ -67,7 +67,7 @@ String processor(const String& var){
 const char index_html[] PROGMEM = R"rawliteral(
 <!DOCTYPE HTML><html>
 <head>
-  <title>F O R Air Quality Monitor - Web Server</title>
+  <title>F O R - Air Quality Monitor</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
   <link rel="icon" href="data:,">
@@ -88,7 +88,7 @@ const char index_html[] PROGMEM = R"rawliteral(
 </head>
 <body>
   <div class="topnav">
-    <h3>F O R AIR QUALITY MONITOR - WEB SERVER (TEST)</h3>
+    <h3>F O R - Air Quality Monitor (raw values)</h3>
   </div>
   <div class="content">
     <div class="cards">
